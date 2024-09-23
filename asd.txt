@@ -1,0 +1,147 @@
+<section id="about" class="bg-primary min-h-screen">
+      <p class="text-background text-3xl font-bold pt-24 pl-24">About Me</p>
+      <div class="flex flex-row items-start ml-24 mt-8 gap-20">
+        <div class="w-1/2">
+          <p class="mr-8 text-2xl">
+            Hello everyone, I’m Ugustiningtyas Supriatno, an undergraduate
+            Computer Engineering student from Universitas Negeri Makassar.
+            Enthusiastic and highly motivated in the field of technology, I have
+            broad curiosity and like to try new things. Right now, I’m focusing
+            on Flutter development and the Internet of Things.
+          </p>
+        </div>
+        <img
+          class="h-96 w-96 object-cover"
+          src="assets/img/about.png"
+          alt="About Me"
+        />
+      </div>
+      <div class="p-8">
+        <hr />
+      </div>
+      <div class="flex flex-row space-x-4 justify-center gap-20">
+        <div class="h-auto w-96 rounded-[30px] bg-card">
+          <p class="text-background font-bold text-2xl pt-5 pl-8">Education</p>
+          <ul class="sessions pr-5 pl-8 pb-5">
+            <li>
+              <div class="time font-bold">SMK NEGERI 7 MAKASSAR</div>
+              <p>Software Engineering</p>
+              <p>June 2019 - May 2022</p>
+            </li>
+            <li>
+              <div class="time font-bold">UNIVERSITAS NEGERI MAKASSAR</div>
+              <p>Computer Engineering</p>
+              <p>August 2022 - Present</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="h-auto w-96 bg-card rounded-[30px]">
+          <p class="text-background font-bold text-2xl pt-5 pl-8">
+            Experiences
+          </p>
+          <ul class="sessions pr-5 pl-8 pb-5">
+            <li>
+              <div class="time font-bold">Bank BRI KC Panakkukang Makassar</div>
+              <p>Internship</p>
+              <p>April 2021 - June 2021</p>
+            </li>
+            <li>
+              <div class="time font-bold">Universitas Negeri Makassar</div>
+              <p>Lecturer Assistant</p>
+              <p>August 2023 - December 2023</p>
+            </li>
+            <li>
+              <div class="time font-bold">
+                PT Ozami Inti Sinergi - Indobot Academy
+              </div>
+              <p>MSIB Student</p>
+              <p>September 2024 - Present</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-8">
+        <hr />
+      </div>
+      <div class="container mx-auto p-8 cd">
+        <h2 class="text-3xl font-bold mb-8">My Certificates</h2>
+        <div class="overflow-x-auto pb-4">
+          <div class="flex space-x-4 w-max">
+            <!-- Certificate 1 -->
+            <div class="flex-shrink-0 w-[300px] bg-white rounded-3xl shadow-lg">
+              <div class="p-5">
+                <h3 class="font-bold text-xl mb-2">
+                  How To Become a Mobile Developer
+                </h3>
+                <p class="text-gray-600 mb-4">Talenthub Indonesia</p>
+                <img
+                  class="w-full h-auto rounded-2xl"
+                  src="assets/img/flutter.jpg"
+                  alt="Mobile Developer Certificate"
+                />
+              </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="flex-shrink-0 w-[300px] bg-white rounded-3xl shadow-lg">
+              <div class="p-5">
+                <h3 class="font-bold text-xl mb-2">Junior Web Devloper</h3>
+                <p class="text-gray-600 mb-4">Digital Talent Scholarship</p>
+                <br />
+                <img
+                  class="w-full h-auto rounded-2xl"
+                  src="assets/img/jwd.jpg"
+                  alt="jwd"
+                />
+              </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="flex-shrink-0 w-[300px] bg-white rounded-3xl shadow-lg">
+              <div class="p-5">
+                <h3 class="font-bold text-xl mb-2">
+                  Belajar membuat aplikasi Flutter untuk pemula
+                </h3>
+                <p class="text-gray-600 mb-4">Dicoding</p>
+                <img
+                  class="w-full h-auto rounded-2xl"
+                  src="assets/img/flutter_dico.jpg"
+                  alt="flutter dicoding"
+                />
+              </div>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="flex-shrink-0 w-[300px] bg-white rounded-3xl shadow-lg">
+              <div class="p-5">
+                <h3 class="font-bold text-xl mb-2">
+                  Belajar Membuat Front-end web untuk pemula
+                </h3>
+                <p class="text-gray-600 mb-4">Dicoding</p>
+                <img
+                  class="w-full h-auto rounded-2xl"
+                  src="assets/img/web_dico.png"
+                  alt="fe web"
+                />
+              </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="flex-shrink-0 w-[300px] bg-white rounded-3xl shadow-lg">
+              <div class="p-5">
+                <h3 class="font-bold text-xl mb-2">
+                  Belajar Dasar Pemrograman Javascript
+                </h3>
+                <p class="text-gray-600 mb-4">Dicoding</p>
+                <img
+                  class="w-full h-auto rounded-2xl"
+                  src="assets/img/js.png"
+                  alt="js"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

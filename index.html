@@ -27,6 +27,7 @@
         },
       };
     </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
     <nav class="bg-accent text-white h-20 flex items-center justify-between px-6">
@@ -62,12 +63,12 @@
   <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
     <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
       <img
-        class="h-64 w-64 md:h-96 md:w-96 object-cover"
+        class="h-64 w-64 md:h-96 md:w-96 object-cover hero-image"
         src="assets/img/hero.png"
         alt="Ugustiningtyas"
       />
     </div>
-    <div class="w-full md:w-1/2 text-center md:text-left">
+    <div class="w-full md:w-1/2 text-center md:text-left hero-text">
       <p class="font-bold text-xl text-white">Hi, There👋</p>
       <p class="font-bold text-xl text-primary">Ugustiningtyas Supriatno</p>
       <p class="text-white text-xl">
@@ -85,10 +86,10 @@
   </div>
 </section>
     <section id="about" class="bg-white min-h-screen">
-      <p class="text-background text-3xl font-bold text-center md:text-start md:pt-24 md:pl-24 p-8">About Me</p>
+      <p class="text-background text-3xl font-bold text-center md:text-start p-10 md:pt-20 p-8 about">About Me</p>
       <div class="flex flex-col md:flex-row items-center md:items-start p-4 md:p-8 gap-0 md:gap-20">
         <div class="w-full md:w-1/2 order-2 md:order-1">
-            <p class="text-l md:text-2xl text-left md:text-start p-3  pt-0 md:pl-16 md:pt-0">
+            <p class="text-l md:text-2xl text-left md:text-start md:pt-0 about-text">
                 Hello everyone, I'm Ugustiningtyas Supriatno, an undergraduate
                 Computer Engineering student from Universitas Negeri Makassar.
                 Enthusiastic and highly motivated in the field of technology, I have
@@ -97,16 +98,17 @@
             </p>
         </div>
         <img
-            class="w-full max-w-sm md:w-96 h-auto object-cover order-1 md:order-2"
+            class="w-full max-w-sm md:w-auto h-auto object-cover order-1 md:order-2 about-image"
             src="assets/img/about.png"
             alt="About Me"
         />
+        
     </div>
-      <div class="p-5 md:p-8 ">
+      <div class="p-5 md:p-8 md:pb-0">
         <hr />
       </div>
       <div class="flex flex-col md:space-x-4 place-items-center md:flex justify-center md:text-start gap-5 md:gap-20 md:flex-row ">
-        <div class="h-auto w-96 rounded-[5px] bg-card shadow-md">
+        <div class="h-auto w-96 rounded-[5px] bg-card shadow-md education">
           <p class="text-background font-bold text-2xl pt-5 pl-8">Education</p>
           <ul class="sessions pr-5 pl-8 pb-5">
             <li>
@@ -122,7 +124,7 @@
           </ul>
         </div>
 
-        <div class="h-auto w-96 bg-card rounded-[5px] shadow-md">
+        <div class="h-auto w-96 bg-card rounded-[5px] shadow-md experiences">
           <p class="text-background font-bold text-2xl pt-5 pl-8">
             Experiences
           </p>
@@ -147,11 +149,11 @@
           </ul>
         </div>
       </div>
-      <div class="p-5 md:p-8">
+      <div class="p-5 md:p-8 md:pb-0">
         <hr />
       </div>
-      <div class="container mx-auto p-5 cd">
-        <p class="text-3xl font-bold mb-8 text-center md:text-start">My Certificates</p>
+      <div class="container mx-auto p-5 md:p-0 cd">
+        <p class="text-3xl font-bold  text-center md:text-start certificate">My Certificates</p>
         <div class="overflow-x-auto pb-4">
           <div class="flex space-x-4 w-max">
             <!-- Certificate 1 -->
@@ -160,7 +162,7 @@
                 <h3 class="font-bold text-l">
                   How To Become a Mobile Developer
                 </h3>
-                <p class="text-gray-600 mb-4">Talenthub Indonesia</p>
+                <p class="text-gray-600 mb-4 ">Talenthub Indonesia</p>
                 <img
                   class="w-full h-auto rounded-2xl"
                   src="assets/img/flutter.jpg"
@@ -233,10 +235,10 @@
       <div>
         <hr />
       </div>
-      <div class="container mx-auto p-5">
-        <p class="text-3xl font-bold text-center mb-5 md:text-left">My Skills</p>
-        <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 md:justify-start md:mb-5">
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md ">
+      <div class="container mx-auto p-8 md:p-0">
+        <p class="text-3xl font-bold text-center  md:text-left skill">My Skills</p>
+        <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 md:justify-start md:mb-5 md:p-0">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md html">
     <svg width="50px" height="50px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -247,56 +249,56 @@
       </g>
     </svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md css">
     <svg width="50px" height="50px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md js">
     <svg width="50px" height="50px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M0,0 L256,0 L256,256 L0,256 L0,0 Z" fill="#F7DF1E"> </path> <path d="M67.311746,213.932292 L86.902654,202.076241 C90.6821079,208.777346 94.1202286,214.447137 102.367086,214.447137 C110.272203,214.447137 115.256076,211.354819 115.256076,199.326883 L115.256076,117.528787 L139.313575,117.528787 L139.313575,199.666997 C139.313575,224.58433 124.707759,235.925943 103.3984,235.925943 C84.1532952,235.925943 72.9819429,225.958603 67.3113397,213.93026" fill="#000000"> </path> <path d="M152.380952,211.354413 L171.969422,200.0128 C177.125994,208.433981 183.827911,214.619835 195.684368,214.619835 C205.652521,214.619835 212.009041,209.635962 212.009041,202.762159 C212.009041,194.513676 205.479416,191.592025 194.481168,186.78207 L188.468419,184.202565 C171.111213,176.81473 159.597308,167.53534 159.597308,147.944838 C159.597308,129.901308 173.344508,116.153295 194.825752,116.153295 C210.119924,116.153295 221.117765,121.48094 229.021663,135.400432 L210.29059,147.428775 C206.166146,140.040127 201.699556,137.119289 194.826159,137.119289 C187.78047,137.119289 183.312254,141.587098 183.312254,147.428775 C183.312254,154.646349 187.78047,157.568406 198.089956,162.036622 L204.103924,164.614095 C224.553448,173.378641 236.067352,182.313448 236.067352,202.418387 C236.067352,224.071924 219.055137,235.927975 196.200432,235.927975 C173.860978,235.927975 159.425829,225.274311 152.381359,211.354413" fill="#000000"> </path> </g> </g></svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md flutter">
     <svg width="50px" height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_flutter</title><polyline points="15.383 18.316 18.744 15.042 27.093 15.042 19.697 22.438 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316" style="fill:#40d0fd"></polyline><polygon points="4.907 16.125 9.106 20.424 27.093 2.287 18.744 2.287 4.907 16.125" style="fill:#41d0fd;isolation:isolate"></polygon><polygon points="11.176 22.479 15.435 26.675 19.697 22.438 15.383 18.316 11.176 22.479" style="fill:#1fbcfd"></polygon><polygon points="15.435 26.675 19.697 22.438 26.989 29.813 18.593 29.813 15.435 26.675" style="fill:#095a9d"></polygon><polygon points="15.435 26.675 19.406 25.354 18.068 24.057 15.435 26.675" style="fill:#0e5199"></polygon></g></svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md php">
     <svg width="50px" height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><radialGradient id="a" cx="-16.114" cy="20.532" r="18.384" gradientTransform="translate(26.52 -9.307)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"></stop><stop offset="0.5" stop-color="#4c6b96"></stop><stop offset="1" stop-color="#231f20"></stop></radialGradient></defs><title>file_type_php</title><ellipse cx="16" cy="16" rx="14" ry="7.365" style="fill:url(#a)"></ellipse><ellipse cx="16" cy="16" rx="13.453" ry="6.818" style="fill:#6280b6"></ellipse><path d="M18.725,18.2l.667-3.434a1.752,1.752,0,0,0-.372-1.719,2.929,2.929,0,0,0-2-.525H15.867l.331-1.7a.219.219,0,0,0-.215-.26h-1.6a.219.219,0,0,0-.215.177l-.709,3.646a2.051,2.051,0,0,0-.477-1.054,2.783,2.783,0,0,0-2.2-.807H7.7a.219.219,0,0,0-.215.177l-1.434,7.38a.219.219,0,0,0,.215.26H7.869a.219.219,0,0,0,.215-.177l.347-1.785h1.2a5.167,5.167,0,0,0,1.568-.2,3.068,3.068,0,0,0,1.15-.689,3.538,3.538,0,0,0,.68-.844l-.287,1.475a.219.219,0,0,0,.215.26h1.6a.219.219,0,0,0,.215-.177l.787-4.051h1.094c.466,0,.6.093.64.133s.1.165.025.569l-.635,3.265a.219.219,0,0,0,.215.26h1.62A.219.219,0,0,0,18.725,18.2ZM11.33,15.366a1.749,1.749,0,0,1-.561,1.092,2.171,2.171,0,0,1-1.315.321H8.742l.515-2.651h.921c.677,0,.949.145,1.059.266A1.181,1.181,0,0,1,11.33,15.366Z" style="fill:#fff"></path><path d="M25.546,13.332a2.783,2.783,0,0,0-2.2-.807H20.255a.219.219,0,0,0-.215.177l-1.434,7.38a.219.219,0,0,0,.215.26h1.608a.219.219,0,0,0,.215-.177l.347-1.785h1.2a5.167,5.167,0,0,0,1.568-.2,3.068,3.068,0,0,0,1.15-.689,3.425,3.425,0,0,0,1.076-1.927A2.512,2.512,0,0,0,25.546,13.332Zm-1.667,2.034a1.749,1.749,0,0,1-.561,1.092A2.171,2.171,0,0,1,22,16.778H21.29l.515-2.651h.921c.677,0,.949.145,1.059.266A1.181,1.181,0,0,1,23.879,15.366Z" style="fill:#fff"></path><path d="M10.178,13.908a1.645,1.645,0,0,1,1.221.338,1.34,1.34,0,0,1,.145,1.161,1.945,1.945,0,0,1-.642,1.223A2.361,2.361,0,0,1,9.454,17H8.476l.6-3.089ZM6.261,20.124H7.869l.381-1.962H9.627a4.931,4.931,0,0,0,1.5-.191,2.84,2.84,0,0,0,1.07-.642,3.207,3.207,0,0,0,1.01-1.808,2.3,2.3,0,0,0-.385-2.044,2.568,2.568,0,0,0-2.035-.732H7.7Z" style="fill:#000004"></path><path d="M14.387,10.782h1.6L15.6,12.744h1.421a2.767,2.767,0,0,1,1.85.468,1.548,1.548,0,0,1,.305,1.516l-.667,3.434H16.89l.635-3.265a.886.886,0,0,0-.08-.76,1.121,1.121,0,0,0-.8-.2H15.37l-.822,4.228h-1.6Z" style="fill:#000004"></path><path d="M22.727,13.908a1.645,1.645,0,0,1,1.221.338,1.34,1.34,0,0,1,.145,1.161,1.945,1.945,0,0,1-.642,1.223A2.361,2.361,0,0,1,22,17h-.978l.6-3.089ZM18.81,20.124h1.608l.381-1.962h1.377a4.931,4.931,0,0,0,1.5-.191,2.84,2.84,0,0,0,1.07-.642,3.207,3.207,0,0,0,1.01-1.808,2.3,2.3,0,0,0-.385-2.044,2.568,2.568,0,0,0-2.035-.732H20.244Z" style="fill:#000004"></path></g></svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md java">
     <svg width="50px" height="50px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0497 8.44062C22.6378 3.32607 19.2566 0 19.2566 0C19.7598 5.28738 13.813 6.53583 12.2189 10.1692C11.1312 12.6485 12.9638 14.8193 16.0475 17.5554C15.7749 16.9494 15.3544 16.3606 14.9288 15.7645C13.4769 13.7313 11.9645 11.6132 16.0497 8.44062Z" fill="#E76F00"></path> <path d="M17.1015 18.677C17.1015 18.677 19.0835 17.0779 17.5139 15.3008C12.1931 9.27186 23.3333 6.53583 23.3333 6.53583C16.5317 9.8125 17.5471 11.7574 19.2567 14.1202C21.0871 16.6538 17.1015 18.677 17.1015 18.677Z" fill="#E76F00"></path> <path d="M22.937 23.4456C29.0423 20.3258 26.2195 17.3278 24.2492 17.7317C23.7662 17.8305 23.5509 17.9162 23.5509 17.9162C23.5509 17.9162 23.7302 17.64 24.0726 17.5204C27.9705 16.1729 30.9682 21.4949 22.8143 23.6028C22.8143 23.6029 22.9088 23.5198 22.937 23.4456Z" fill="#5382A1"></path> <path d="M10.233 19.4969C6.41312 18.9953 12.3275 17.6139 12.3275 17.6139C12.3275 17.6139 10.0307 17.4616 7.20592 18.8043C3.86577 20.3932 15.4681 21.1158 21.474 19.5625C22.0984 19.1432 22.9614 18.7798 22.9614 18.7798C22.9614 18.7798 20.5037 19.2114 18.0561 19.4145C15.0612 19.6612 11.8459 19.7093 10.233 19.4969Z" fill="#5382A1"></path> <path d="M11.6864 22.4758C9.55624 22.2592 10.951 21.2439 10.951 21.2439C5.43898 23.0429 14.0178 25.083 21.7199 22.8682C20.9012 22.5844 20.3806 22.0653 20.3806 22.0653C16.6163 22.7781 14.441 22.7553 11.6864 22.4758Z" fill="#5382A1"></path> <path d="M12.6145 25.6991C10.486 25.4585 11.7295 24.7474 11.7295 24.7474C6.72594 26.1222 14.7729 28.9625 21.1433 26.2777C20.0999 25.8787 19.3528 25.4181 19.3528 25.4181C16.5111 25.9469 15.1931 25.9884 12.6145 25.6991Z" fill="#5382A1"></path> <path d="M25.9387 27.3388C25.9387 27.3388 26.8589 28.0844 24.9252 28.6612C21.2481 29.7566 9.62093 30.0874 6.39094 28.7049C5.22984 28.2082 7.40723 27.5189 8.09215 27.3742C8.80646 27.2219 9.21466 27.2503 9.21466 27.2503C7.9234 26.3558 0.868489 29.0067 5.63111 29.7659C18.6195 31.8372 29.3077 28.8331 25.9387 27.3388Z" fill="#5382A1"></path> <path d="M28 28.9679C27.7869 31.6947 18.7877 32.2683 12.9274 31.8994C9.10432 31.6583 8.33812 31.0558 8.32691 31.047C11.9859 31.6402 18.1549 31.7482 23.1568 30.8225C27.5903 30.0016 28 28.9679 28 28.9679Z" fill="#5382A1"></path> </g></svg>
   </div>
-  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md">
+  <div class="h-[70px] w-[70px] bg-white rounded-[5px] flex items-center justify-center shadow-md arduino">
     <svg width="50px" height="50px" viewBox="0 -41 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="#00979C"> <path d="M14.044,130.399 L0.919,173.242 L11.247,173.242 L13.616,165.259 L26.419,165.259 L28.724,173.242 L39.955,173.242 L26.831,130.399 L14.044,130.399 L14.044,130.399 Z M16.21,156.641 L20.109,143.316 L23.964,156.641 L16.21,156.641 L16.21,156.641 Z"> </path> <path d="M64.632,153.696 C64.477,153.53 64.319,153.373 64.158,153.226 C64.481,153.104 64.796,152.974 65.104,152.832 C66.354,152.258 67.449,151.489 68.359,150.552 C69.279,149.606 70.002,148.466 70.507,147.163 C71.007,145.876 71.261,144.397 71.261,142.77 C71.261,140.527 70.856,138.587 70.06,137.002 C69.255,135.399 68.09,134.079 66.599,133.078 C65.152,132.108 63.392,131.407 61.367,130.996 C59.421,130.601 57.229,130.399 54.854,130.399 L41.456,130.399 L41.456,173.242 L51.731,173.242 L51.731,156.502 L52.036,156.502 C53.16,156.502 54.097,156.749 54.9,157.259 C55.697,157.764 56.308,158.509 56.771,159.541 L62.981,173.242 L74.936,173.242 L67.391,157.959 C66.477,156.103 65.574,154.71 64.632,153.696 L64.632,153.696 Z M60.163,145.477 C59.866,146.043 59.454,146.507 58.903,146.895 C58.322,147.303 57.601,147.616 56.757,147.826 C55.866,148.049 54.849,148.161 53.733,148.161 L51.731,148.161 L51.731,139.142 L53.989,139.142 C56.341,139.142 58.089,139.511 59.184,140.24 C60.138,140.875 60.602,141.945 60.602,143.513 C60.602,144.271 60.458,144.914 60.163,145.477 L60.163,145.477 Z"> </path> <path d="M105.04,135.487 C103.31,133.748 101.128,132.446 98.555,131.619 C96.047,130.81 93.095,130.399 89.782,130.399 L76.193,130.399 L76.193,173.242 L88.022,173.242 C91.839,173.242 95.178,172.722 97.945,171.697 C100.755,170.658 103.102,169.15 104.919,167.216 C106.733,165.286 108.085,162.928 108.935,160.209 C109.769,157.547 110.191,154.553 110.191,151.31 C110.191,147.775 109.768,144.674 108.932,142.093 C108.078,139.449 106.769,137.227 105.04,135.487 L105.04,135.487 Z M96.639,161.524 C94.855,163.506 92.267,164.469 88.727,164.469 L86.467,164.469 L86.467,139.172 L89.27,139.172 C91.251,139.172 92.914,139.452 94.211,140.005 C95.469,140.54 96.442,141.296 97.186,142.314 C97.946,143.358 98.497,144.668 98.823,146.205 C99.166,147.831 99.341,149.715 99.341,151.805 C99.341,156.263 98.432,159.533 96.639,161.524 L96.639,161.524 Z"> </path> <path d="M134.942,157.654 C134.942,159.131 134.806,160.39 134.535,161.396 C134.283,162.335 133.912,163.102 133.43,163.675 C132.968,164.226 132.403,164.615 131.704,164.864 C130.943,165.136 129.97,165.273 128.81,165.273 C127.583,165.273 126.571,165.116 125.802,164.805 C125.063,164.505 124.469,164.076 123.985,163.495 C123.499,162.91 123.151,162.176 122.95,161.31 C122.726,160.354 122.613,159.229 122.613,157.963 L122.613,130.399 L112.339,130.399 L112.339,158.427 C112.339,160.743 112.626,162.869 113.19,164.745 C113.777,166.694 114.745,168.379 116.068,169.75 C117.391,171.12 119.123,172.18 121.216,172.897 C123.25,173.598 125.708,173.953 128.521,173.953 C131.036,173.953 133.344,173.598 135.378,172.897 C137.458,172.184 139.251,171.103 140.708,169.683 C142.166,168.261 143.297,166.471 144.07,164.363 C144.83,162.293 145.216,159.869 145.216,157.158 L145.216,130.399 L134.942,130.399 L134.942,157.654"> </path> <path d="M150.47,139.018 L159.69,139.018 L159.69,164.562 L150.47,164.562 L150.47,173.242 L179.313,173.242 L179.313,164.562 L170.093,164.562 L170.093,139.018 L179.313,139.018 L179.313,130.399 L150.47,130.399 L150.47,139.018"> </path> <path d="M207.905,154.811 L196.419,130.399 L184.79,130.399 L184.79,173.242 L194.359,173.242 L194.359,148.366 L205.906,173.242 L217.476,173.242 L217.476,130.399 L207.905,130.399 L207.905,154.811"> </path> <path d="M250.738,135.468 C247.738,131.653 243.241,129.719 237.374,129.719 C234.864,129.719 232.47,130.164 230.258,131.041 C228.015,131.93 226.033,133.314 224.366,135.158 C222.714,136.986 221.402,139.337 220.469,142.144 C219.546,144.915 219.078,148.238 219.078,152.022 C219.078,159.012 220.565,164.45 223.497,168.188 C226.497,172.014 230.994,173.953 236.861,173.953 C239.372,173.953 241.768,173.508 243.98,172.631 C246.224,171.741 248.205,170.356 249.87,168.515 C251.52,166.688 252.832,164.338 253.768,161.529 C254.689,158.759 255.157,155.436 255.157,151.65 C255.157,144.64 253.67,139.195 250.738,135.468 L250.738,135.468 Z M243.976,157.729 C243.682,159.31 243.223,160.643 242.612,161.692 C242.032,162.691 241.314,163.423 240.419,163.928 C239.527,164.431 238.416,164.686 237.118,164.686 C234.55,164.686 232.76,163.73 231.646,161.765 C230.422,159.606 229.801,156.204 229.801,151.65 C229.801,149.512 229.955,147.591 230.261,145.944 C230.555,144.366 231.017,143.035 231.637,141.986 C232.227,140.983 232.947,140.249 233.838,139.742 C234.717,139.241 235.82,138.987 237.118,138.987 C239.706,138.987 241.501,139.941 242.604,141.903 C243.819,144.063 244.435,147.468 244.435,152.022 C244.435,154.166 244.281,156.086 243.976,157.729 L243.976,157.729 Z"> </path> <path d="M240.315,5.74 L242.138,5.74 L242.138,10.533 L243.431,10.533 L243.431,5.74 L245.269,5.74 L245.269,4.55 L240.315,4.55 L240.315,5.74"> </path> <path d="M249.768,4.55 L248.521,8.628 L247.231,4.55 L245.544,4.55 L245.544,10.533 L246.76,10.533 L246.76,6.711 L247.966,10.533 L249.076,10.533 L250.22,6.81 L250.22,10.533 L251.43,10.533 L251.43,4.55 L249.768,4.55"> </path> <path d="M190.275,120.327 C173.987,120.327 160.061,114.835 147.805,103.602 C140.234,96.665 133.992,88.166 128.249,79.329 C122.507,88.166 116.264,96.665 108.694,103.602 C95.525,115.671 80.427,121.113 62.545,120.236 C28.444,120.088 0.747,93.176 0.747,60.118 C0.747,26.969 28.596,0 62.827,0 C81.559,0 97.33,6.199 111.037,18.95 C117.621,25.075 123.179,32.18 128.249,39.614 C133.319,32.18 138.878,25.075 145.461,18.95 C159.168,6.199 174.939,0 193.671,0 C227.903,0 255.751,26.969 255.751,60.118 C255.751,93.176 228.055,120.088 193.953,120.236 C192.714,120.297 191.487,120.327 190.275,120.327 L190.275,120.327 Z M140.72,59.316 C147.514,70.339 154.108,80.599 162.14,87.959 C171.206,96.268 180.762,99.686 193.115,99.033 L193.671,99.018 C216.202,99.018 234.533,81.568 234.533,60.118 C234.533,38.669 216.202,21.218 193.671,21.218 C180.37,21.218 169.643,25.434 159.913,34.485 C152.646,41.246 146.646,49.908 140.72,59.316 L140.72,59.316 Z M62.827,21.218 C40.296,21.218 21.965,38.669 21.965,60.118 C21.965,81.568 40.296,99.018 62.827,99.018 L63.384,99.033 C75.738,99.686 85.292,96.268 94.358,87.959 C102.39,80.599 108.985,70.339 115.778,59.316 C109.852,49.908 103.852,41.246 96.586,34.485 C86.855,25.434 76.128,21.218 62.827,21.218 L62.827,21.218 Z"> </path> <path d="M196.477,52.407 L196.477,40.901 L184.501,40.901 L184.501,52.407 L172.996,52.407 L172.996,64.325 L184.501,64.325 L184.501,75.916 L196.477,75.916 L196.477,64.325 L207.983,64.325 L207.983,52.407 L196.477,52.407"> </path> <path d="M45.599,52.263 L83.416,52.263 L83.416,64.555 L45.599,64.555 L45.599,52.263 Z"> </path> </g> </g></svg>
   </div>
 </div>
 
     </section>
     <section id="project" class="bg-background min-h-screen">
-      <p class="text-white text-3xl font-bold text-center pt-24 md:pt-24 md:pl-20 md:text-left">Project</p>
-    <div class="flex flex-col items-center gap-5 p-8 md:pl-20 md:flex-row">
-  <div class="w-[22rem] h-[23rem] md:h-[20rem] bg-card rounded-[5px]">
+      <p class="text-white text-3xl font-bold text-center p-10 md:pt-20 p-8 md:text-left project">Project</p>
+    <div class="flex flex-col items-center gap-5 p-0 md:p-8 md:pt-5 md:flex-row">
+  <div class="w-96 h-[23rem] md:h-[20rem] md:w-[22rem] bg-card rounded-[5px] anuflix">
     <div class="p-5">
       <h3 class="font-bold text-xl">Anuflix</h3>
       <p class="text-background mb-4">Movie Apps with TMDb API and develop with Flutter</p>
-      <img class="w-full h-auto rounded-2xl" src="assets/img/Anuflix.png" alt="anuflix" />
+      <img class="w-full h-auto rounded-[5px]" src="assets/img/Anuflix.png" alt="anuflix" />
     </div>
   </div>
-  <div class="w-[22rem] h-[23rem] md:h-[20rem]  bg-card rounded-[5px]">
+  <div class="w-96 h-[23rem] md:h-[20rem] md:w-[22rem] bg-card rounded-[5px] anucoffee">
     <div class="p-5">
       <h3 class="font-bold text-xl">Anu Coffee</h3>
       <p class="text-background mb-4">Anu Coffee is an online coffee ordering application made by Flutter and Firebase</p>
-      <img class="w-full h-auto rounded-2xl" src="assets/img/anucoffe.png" alt="anu coffee" />
+      <img class="w-full h-auto rounded-[5px]" src="assets/img/anucoffe.png" alt="anu coffee" />
     </div>
   </div>
-  <div class="w-[22rem] h-[23rem] md:h-[20rem] bg-card rounded-[5px]">
+  <div class="w-96 h-[23rem] md:h-[20rem] md:w-[22rem] bg-card rounded-[5px] apotek">
     <div class="p-5">
       <h3 class="font-bold text-xl">Apotek Sehat</h3>
       <p class="text-background mb-4">Java GUI based desktop application for recording drug data, drug categories, and transactions at pharmacies</p>
-      <img class="w-full h-auto rounded-2xl" src="assets/img/apoteksehat.png" alt="apotek sehat" />
+      <img class="w-full h-auto rounded-[5px]" src="assets/img/apoteksehat.png" alt="apotek sehat" />
     </div>
   </div>
-  <div class="w-[22rem] h-[23rem] md:h-[20rem] bg-card rounded-[5px]">
+  <div class="w-96 h-[23rem] md:h-[20rem] md:w-[22rem] bg-card rounded-[5px] jemuranuno">
     <div class="p-5">
       <h3 class="font-bold text-xl">JemuranUNO</h3>
       <p class="text-background mb-4">Automatic Clothesline using Internet of Things and Blynk App</p>
-      <img class="w-full h-auto rounded-2xl" src="assets/img/jemuranuno.png" alt="jemuranuno" />
+      <img class="w-full h-auto rounded-[5px]" src="assets/img/jemuranuno.png" alt="jemuranuno" />
     </div>
   </div>
 </div>
@@ -306,7 +308,7 @@
     </div>
     </section>
     <section id="contact" class="bg-background min-h-screen">
-      <p class="text-white text-3xl font-bold text-center pt-8 md:pt-24 md:text-left md:pl-20">Contact</p>
+      <p class="text-white text-3xl font-bold text-center pt-8 md:pt-18 md:text-left md:pl-20 contact">Contact</p>
       <div class="flex flex-col items-start md:pl-16 mt-8 md:flex-row">
         <div class="w-[100%]">
           <p class="text-white text-l p-5 ">
@@ -373,13 +375,13 @@
     </form>
         </div>
       </div>
-      <div class="p-5 pt-8 md:p-8 ">
+      <div class="p-5 pt-8 md:p-8 md:pt-12 ">
         <hr>
       </div>
     </section>
     
     <footer class="bg-background">
-      <div class="flex flex-col md:flex-row place-items-center md:place-content-between pl-10 pr-10">
+      <div class="flex flex-col md:flex-row place-items-center md:place-content-between md:pb-0 md:p-8 md:pt-0">
         <p class="text-white text-start font-bold pb-5">
         Ugustiningtyas Supriatno</p>
         <div class="flex flex-row gap-3 pb-5">
@@ -390,5 +392,123 @@
       </div>
     </footer>
     <script src="assets/js/script.js"></script>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400 
+      })
+    ScrollReveal().reveal(".hero-image", {
+      delay: 500,
+      duration: 1500,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".hero-text", {
+      delay: 400,
+      duration: 1500,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".about, .certificate, .skill,.project, .contact", {
+      delay: 200,
+      duration: 1000,
+      origin:"top",
+      reset: true
+    });
+    ScrollReveal().reveal(".about-text", {
+      delay: 250,
+      duration: 1000,
+      origin:"left",
+      reset: true
+    });
+    
+    ScrollReveal().reveal(".about-image", {
+      delay: 250,
+      duration: 1000,
+      origin:"right",
+      reset: true
+    });
+    ScrollReveal().reveal(".education", {
+      delay: 300,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    
+    ScrollReveal().reveal(".experiences", {
+      delay: 500,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".html", {
+      delay: 550,
+      duration: 1500,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".css", {
+      delay: 750,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".js", {
+      delay: 950,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".flutter", {
+      delay: 1050,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".php", {
+      delay: 1250,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".java", {
+      delay: 1450,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".arduino", {
+      delay: 1650,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".anuflix", {
+      delay: 550,
+      duration: 1500,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".anucoffee", {
+      delay: 750,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".apotek", {
+      delay: 950,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    ScrollReveal().reveal(".jemuranuno", {
+      delay: 1050,
+      duration: 1000,
+      origin:"bottom",
+      reset: true
+    });
+    </script>
   </body>
 </html>
